@@ -9,12 +9,16 @@
 6. [Author](#Author)
 
 Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and uses `Jupyter notebook` to interact with the databases in Python or shell.
+
 <h2 id="Descriptions">🧩 Descriptions</h2>
-Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and uses `Jupyter notebook` to interact with the databases in Python or shell.
 
+This repository contains tutorials for working with NoSQL databases: Redis, MongoDB, and OrientDB. Instructions include installing and using these databases, as well as examples of interacting with them via Python or shell commands, using Jupyter Notebooks.
 
-
-
+Contents
+- Redis: Installation and Usage.
+- MongoDB: Basic Commands and Data Manipulation.
+- OrientDB: Introduction and Configuration.
+These tutorials are ideal for learning how to use NoSQL databases in hands-on, interactive environments.
 
 
 <h2 id="Prerequisites">🤖 Prerequisites</h2>
@@ -23,34 +27,56 @@ Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and us
 - Docker Desktop (make sure to reinstall Docker Desktop so the `docker` command line works)
 
 
-
 <h2 id="Project-structure">🏗️ Project structure</h2>
 
-
-
+├── data/
+│   ├── movieslens_movies.json
+│   └── movieslens_users.json
+├── lecture/
+│   └── nosql_lecture.pdf
+├── notebooks/
+│   ├── 1-redis.ipynb
+│   ├── 2-mongo.ipynb
+│   └── 3-orientdb.ipynb
+├── .gitignore
+└── README.md
 
 
 <h2 id="Installation">🛠️ Installation</h2>
 
-### Setup the conda environment
-
-Remember to use the `Anaconda Powershell` prompt at the root of your project.
+Conda Environment Setup
+1. Open the Anaconda Powershell prompt at the root of your project.
+2. Create and activate a Conda environment:
 
 ```
-conda create -n nosql python=3.7
-conda activate nosql
-conda install -c anaconda mongo-tools
-pip install jupyter jupyterlab redis pymongo
+conda create -n nosql python=3.7  
+conda activate nosql  
 ```
 
-To run your jupyter notebook: `jupyter notebook` or `jupyter lab`
+3. Installez les outils nécessaires :
+
+```
+conda install -c anaconda mongo-tools  
+pip install jupyter jupyterlab redis pymongo  
+```
+
+4. Lancez votre Jupyter Notebook ou Jupyter Lab:
+
+```
+jupyter notebook  
+# ou  
+jupyter lab  
+```
+
+You can use Visual Studio Code !
+
 
 ### Run Redis
 
 In a separate command line prompt:
 
 ```
-docker run -it --rm -n some-redis -p 6379:6379 redis
+docker run -it --rm --name some-redis -p 6379:6379 redis
 ```
 
 ### Run MongoDB
@@ -58,7 +84,7 @@ docker run -it --rm -n some-redis -p 6379:6379 redis
 In a separate command line prompt:
 
 ```
-docker run -it --rm -n some-mongo -p 27017:27017 mongo:4
+docker run -it --rm --name some-mongo -p 27017:27017 mongo:4
 ```
 
 ### Run OrientDB
@@ -66,7 +92,7 @@ docker run -it --rm -n some-mongo -p 27017:27017 mongo:4
 In a separate command line prompt:
 
 ```
-docker run -it --rm -n some-orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=root orientdb:2.2
+docker run -it --rm --name some-orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=root orientdb:2.2
 ```
 
 <h2 id="Contribution">🤝 Contribution</h2>
