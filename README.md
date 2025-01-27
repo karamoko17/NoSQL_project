@@ -1,6 +1,15 @@
-# Lyon 2 NoSQL Tutorial
+# NoSQL project
+
+## 📖 **Table of Contents**
+1. [Descriptions](#descriptions)
+2. [Prerequisites](#Prerequisites)
+3. [Project structure](#Project-structure)
+4. [Installation](#Installation)
+5. [Contribution](#Contribution)
+6. [Author](#Author)
 
 Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and uses `Jupyter notebook` to interact with the databases in Python or shell.
+<h2 id="Descriptions">🧩 Descriptions</h2>
 
 ## Prerequisites
 
