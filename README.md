@@ -68,7 +68,7 @@ jupyter lab
 
 You can also use Visual Studio Code !
 
-
+## Run the databases
 ### Run Redis
 
 In a separate command line prompt:
