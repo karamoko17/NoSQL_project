@@ -60,13 +60,13 @@ conda create -n nosql python=3.7
 conda activate nosql  
 ```
 
-3. Installez les outils nécessaires :
+3. Install the necessary tools:
 ```
 conda install -c anaconda mongo-tools  
 pip install jupyter jupyterlab redis pymongo  
 ```
 
-4. Lancez votre Jupyter Notebook ou Jupyter Lab:
+4. Launch your Jupyter Notebook or Jupyter Lab:
 ```
 jupyter notebook  
 # ou  
