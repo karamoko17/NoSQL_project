@@ -28,7 +28,7 @@ Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and us
 
 
 <h2 id="Project-structure">🏗️ Project structure</h2>
-
+```
 ├── data/
 │   ├── movieslens_movies.json
 │   └── movieslens_users.json
@@ -40,7 +40,7 @@ Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and us
 │   └── 3-orientdb.ipynb
 ├── .gitignore
 └── README.md
-
+```
 
 <h2 id="Installation">🛠️ Installation</h2>
 
