@@ -45,7 +45,8 @@ These tutorials are perfect for anyone looking to explore NoSQL databases in an 
 <h2 id="Installation">🛠️ Installation</h2>
 
 GitHub repository
-- Run the following command in your terminal to clone the GitHub repository:
+
+Run the following command in your terminal to clone the GitHub repository:
 ```bash
 https://github.com/karamoko17/NoSQL_project.git
 ```
