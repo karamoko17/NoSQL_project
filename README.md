@@ -22,6 +22,16 @@ Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and us
 - Anaconda
 - Docker Desktop (make sure to reinstall Docker Desktop so the `docker` command line works)
 
+
+
+<h2 id="Project-structure">🏗️ Project structure</h2>
+
+
+
+
+
+<h2 id="Installation">🛠️ Installation</h2>
+
 ### Setup the conda environment
 
 Remember to use the `Anaconda Powershell` prompt at the root of your project.
@@ -59,7 +69,15 @@ In a separate command line prompt:
 docker run -it --rm -n some-orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=root orientdb:2.2
 ```
 
-## Contributions
+<h2 id="Contribution">🤝 Contribution</h2>
 
-A huge thanks to Damien SIMONIN FEUGAS for a huge part of those NoSQL tutorials which were translated into Jupyter notebooks !
-# NoSQL_project
+Contributions are welcome! Feel free to open a ticket or submit a pull request to suggest improvements. Here's how you can get involved:
+
+1. Fork the project.
+2. Create a branch for your feature.
+3. Make your changes and validate them with a clear message.
+4. Push your changes to your branch on the remote repository.  
+5. Submit a pull request to have your contribution reviewed.
+
+<h2 id="Author">🎯 Author</h2> 
+This project was designed and developed by KARAMOKO Awa, a student in Master 2 SISE (Statistics and Computer Science for Data Science) at Université Lumière Lyon 2.
