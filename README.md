@@ -44,7 +44,14 @@ These tutorials are perfect for anyone looking to explore NoSQL databases in an 
 
 <h2 id="Installation">🛠️ Installation</h2>
 
-Conda Environment Setup
+GitHub repository
+- Run the following command in your terminal to clone the GitHub repository:
+```bash
+https://github.com/karamoko17/NoSQL_project.git
+```
+
+Then move to the project directory and create a new conda environment with the following command :
+
 1. Open the Anaconda Powershell prompt at the root of your project.
 2. Create and activate a Conda environment:
 ```
