@@ -10,8 +10,14 @@
 
 Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and uses `Jupyter notebook` to interact with the databases in Python or shell.
 <h2 id="Descriptions">🧩 Descriptions</h2>
+Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and uses `Jupyter notebook` to interact with the databases in Python or shell.
 
-## Prerequisites
+
+
+
+
+
+<h2 id="Prerequisites">🤖 Prerequisites</h2>
 
 - Anaconda
 - Docker Desktop (make sure to reinstall Docker Desktop so the `docker` command line works)
