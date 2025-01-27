@@ -66,7 +66,7 @@ jupyter notebook
 jupyter lab  
 ```
 
-You can use Visual Studio Code !
+You can also use Visual Studio Code !
 
 
 ### Run Redis
