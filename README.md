@@ -28,8 +28,8 @@ Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and us
 
 
 <h2 id="Project-structure">🏗️ Project structure</h2>
-```
 
+```
 ├── data/
 │   ├── movieslens_movies.json
 │   └── movieslens_users.json
@@ -41,7 +41,6 @@ Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and us
 │   └── 3-orientdb.ipynb
 ├── .gitignore
 └── README.md
-
 ```
 
 <h2 id="Installation">🛠️ Installation</h2>
@@ -49,21 +48,18 @@ Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and us
 Conda Environment Setup
 1. Open the Anaconda Powershell prompt at the root of your project.
 2. Create and activate a Conda environment:
-
 ```
 conda create -n nosql python=3.7  
 conda activate nosql  
 ```
 
 3. Installez les outils nécessaires :
-
 ```
 conda install -c anaconda mongo-tools  
 pip install jupyter jupyterlab redis pymongo  
 ```
 
 4. Lancez votre Jupyter Notebook ou Jupyter Lab:
-
 ```
 jupyter notebook  
 # ou  
