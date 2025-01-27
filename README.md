@@ -17,6 +17,7 @@ Contents
 - Redis: Installation and Usage.
 - MongoDB: Basic Commands and Data Manipulation.
 - OrientDB: Introduction and Configuration.
+
 These tutorials are ideal for learning how to use NoSQL databases in hands-on, interactive environments.
 Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and uses `Jupyter notebook` to interact with the databases in Python or shell.
 
