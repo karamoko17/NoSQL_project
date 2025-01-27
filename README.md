@@ -17,6 +17,7 @@ Contents
 - Redis: Installation and usage guidelines.
 - MongoDB: Essential commands and data manipulation techniques.
 - OrientDB: Introduction and configuration setup.
+
 These tutorials are perfect for anyone looking to explore NoSQL databases in an interactive and practical way, providing clear examples and guidance for real-world applications.
 
 <h2 id="Prerequisites">🤖 Prerequisites</h2>
